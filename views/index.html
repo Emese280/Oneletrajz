@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Illés Emese - Önéletrajz</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Montserrat:wght@700&family=Fira+Code:wght@400&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/jpeg" href="/nyusz.jpg">
+</head>
+<body>
+  <div id="tsparticles" class="particles-bg" aria-hidden="true"></div>
+  <header>
+    <div class="header-content">
+      <img src="/Mexdxd.png" alt="Illés Emese" class="profile-pic">
+      <div class="header-text">
+        <h1>Illés Emese</h1>
+        <p>Programtervező informatikus</p>
+      </div>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>Rólam</h2>
+    <p>SZC Széchenyi István Műszaki Technikumban végeztem el a szoftverfejlesztő és tesztelő szakot. </p>
+    <p>Ezalatt a pár év alatt volt szerencsém elsajátítani a C#/.NET technológiák és az objektumorientált programozást, algoritmikus gondolkodást, erős hangsúlyt fektetve a CLEAN CODE elveire. </p>
+    <p>Széleskörű érdeklődéssel fordulok a komplex szoftverrendszerek tervezése és megvalósítása felé, célom pedig a folyamatos szakmai fejlődés ipari környezetben.</p>
+  </section>
+
+  <section id="experience">
+    <h2>Tanulmányok/projektek</h2>
+    <p>Szoftverfejlesztő-és tesztelő technikus (folyamatban).</p>
+    <p>Technikusi tanulmányaim alatt megtanultam csapatban dolgozni, ami nagyon jó hatással volt a szervező és kommunikációs képességeimre. Közösen létrehoztunk egy programot/weboldalt, amely egy időpontfoglaló központként működik. Szakmai hozzájárulásom a frontend részénél volt, illetve aktívan közreműködtem a backend architektúra megismerésében/értelmezésében.</p>
+  </section>
+
+  <section id="education">
+    <h2>Eszközök</h2>
+    <ul>
+      <li>Git</li>
+      <li>Visual Studio</li>
+      <li>VS Code</li>
+      <li>SQL Server</li>
+
+    </ul>
+  </section>
+
+  <section id="skills">
+    <div class="section-header skills-header">
+      <img src="/experience.png" alt="Készségek kép" class="skills-img">
+      <h2>Készségek</h2>
+    </div>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Python</li>
+      <li>SQL</li>
+      <li>C#</li>
+      <li>Angol B2</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Kapcsolat</h2>
+    <p>Email: emeseilles120@gmail.com</p>
+    <p>Telefon: +06 20 558 6019</p>
+  </section>
+
+  <footer>
+    <p>© 2026 Illés Emese</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.11.0/tsparticles.bundle.min.js"></script>
+  <script>
+    tsParticles.load("tsparticles", {
+      fpsLimit: 60,
+      particles: {
+        number: { value: 40, density: { enable: true, area: 800 } },
+        color: { value: ["#F8BBD0", "#D1C4E9", "#B3E5FC", "#C8E6C9"] },
+        shape: { type: "circle" },
+        opacity: { value: 0.85, random: { enable: true, minimumValue: 0.4 } },
+        size: { value: { min: 2, max: 6 } },
+        links: { enable: true, distance: 120, color: "rgba(157,139,163,0.2)", opacity: 0.35, width: 1 },
+        move: { enable: true, speed: 0.8, direction: "none", outModes: { default: "bounce" } }
+      },
+      interactivity: {
+        detectsOn: "canvas",
+        events: {
+          onHover: { enable: true, mode: "repulse" },
+          onClick: { enable: false }
+        },
+        modes: { repulse: { distance: 120, duration: 0.4 } }
+      },
+      detectRetina: true
+    });
+  </script>
+</body>
+</html>
