@@ -1,50 +1,24 @@
 # Oneletrajz
 
-Modern, statikus online oneletrajz Express szerverrel.
+Statikus online oneletrajz, ami kozvetlenul megnyithato fajlkezelo-bol.
 
-## Fajlstruktura (nem MVC)
+## Fajlstruktura
 
 ```text
 Me/
-	public/
-		index.html
-		style.css
-		...kepek
-	src/
-		server.js
-		middleware/
-			logger.js
-	app.js
-	package.json
+	index.html
+	style.css
+	script.js
+	Me.png
+	nyusz.jpg
+	favicon.ico
 ```
 
-## Futtatas
+## Hasznalat
 
-```bash
-npm install
-npm run dev
-```
+1. Nyisd meg az `index.html` fajlt duplakattintassal.
+2. Az oldal szerver nelkul is mukodik.
 
-## Miert jo ez a struktura?
+## Megjegyzes
 
-- Egyszeru, atlathato CV projekthez.
-- A `public` tisztan frontend tartalom.
-- A `src` tisztan szerver logika.
-- Konnyen bovitheto kesobb adatbazisos modulokkal.
-
-## Kesobbi bovites adatbazissal
-
-Ha masik oldalhoz adatbazist adnal, ajanlott uj mappak:
-
-```text
-src/
-	api/
-		routes/
-		controllers/
-		services/
-		repositories/
-	db/
-		client.js
-```
-
-Igy a CV oldal marad egyszeru, de az uj, dinamikus oldal szepen szeparalhato.
+- A Google Fonts es a tsParticles CDN internetkapcsolatot igenyel.
