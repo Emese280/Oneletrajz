@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Illés Emese | Developer CV</title>
+  <title>Illés Emese CV</title>
   <link rel="stylesheet" href="/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,11 +14,11 @@
   <div id="tsparticles" class="particles-bg" aria-hidden="true"></div>
 
   <nav id="quick-nav" class="quick-nav" aria-label="Szekciók">
-    <a href="#about" data-i18n="navAbout">Rólam</a>
-    <a href="#experience" data-i18n="navExperience">Tanulmányok</a>
-    <a href="#education" data-i18n="navTools">Eszközök</a>
-    <a href="#skills" data-i18n="navSkills">Készségek</a>
-    <a href="#contact" data-i18n="navContact">Kapcsolat</a>
+    <a href="#about" data-i18n="nav.about">Rólam</a>
+    <a href="#experience" data-i18n="nav.experience">Tanulmányok</a>
+    <a href="#education" data-i18n="nav.tools">Eszközök</a>
+    <a href="#skills" data-i18n="nav.skills">Készségek</a>
+    <a href="#contact" data-i18n="nav.contact">Kapcsolat</a>
     <div class="lang-switch" role="group" aria-label="Nyelvválasztó">
       <button id="lang-hu" class="lang-btn active" type="button">HU</button>
       <button id="lang-en" class="lang-btn" type="button">EN</button>
@@ -27,50 +27,53 @@
 
   <header>
     <div class="header-content">
-      <img src="/Mexdxd.png" alt="Illés Emese" class="profile-pic">
+      <img src="/Me.png" alt="Illés Emese" class="profile-pic">
       <div class="header-text">
         <h1>Illés Emese</h1>
-        <p>Szoftverfejlesztő-és tesztelő</p>
+        <p data-i18n="header.role">Szoftverfejlesztő és tesztelő technikus</p>
       </div>
     </div>
   </header>
 
   <main>
     <section id="about" class="reveal">
-      <h2 data-i18n="aboutTitle">Rólam</h2>
-      <p data-i18n="aboutP1">SZC Széchenyi István Műszaki Technikumban végeztem el a szoftverfejlesztő és tesztelő szakot.</p>
-      <p data-i18n="aboutP2">Ezalatt a pár év alatt volt szerencsém elsajátítani a C#/.NET technológiákat és az objektumorientált programozást, algoritmikus gondolkodást, miközben sokat fejlődtem csapatmunkában és projektgondolkodásban.</p>
-      <p data-i18n="aboutP3">Érdeklődéssel fordulok a komplex szoftverrendszerek felé, célom pedig a folyamatos szakmai fejlődés ipari környezetben.</p>
+      <h2 data-i18n="about.title">Rólam</h2>
+      <p data-i18n="about.p1">Technikusi tanulmányaim alatt megtanultam csapatban dolgozni, ami nagyon jó hatással volt a szervező és kommunikációs képességeimre.</p>
+      <p data-i18n="about.p2">Ezalatt az 5 év alatt elsajátítottam a C#/.NET technológiákat, az objektumorientált programozást és az algoritmikus gondolkodást, erős hangsúlyt fektetve a CLEAN CODE elveire.</p>
+      <p data-i18n="about.p3">Széleskörű érdeklődéssel fordulok a komplex szoftverrendszerek tervezése és megvalósítása felé, célom pedig a folyamatos szakmai fejlődés ipari környezetben.</p>
     </section>
 
     <section id="experience" class="reveal">
-      <h2 data-i18n="expTitle">Tanulmányok és projektek</h2>
+      <h2 data-i18n="exp.title">Tanulmányok és projektek</h2>
       <div class="timeline-item">
-        <h3 data-i18n="expItem1Title">Szoftverfejlesztő és tesztelő technikus</h3>
-        <p class="muted" data-i18n="expItem1Status">Folyamatban</p>
-        <p data-i18n="expItem1Text">Technikusi tanulmányaim alatt megtanultam csapatban dolgozni, ami jelentősen fejlesztette a szervező és kommunikációs képességeimet.</p>
+        <h3 data-i18n="exp.item1Title">Szoftverfejlesztő és tesztelő technikus</h3>
+        <p data-i18n="exp.item1P1">SZC Széchenyi István Műszaki Technikumban végzem el a szoftverfejlesztő és tesztelő szakot.</p>
+        <p data-i18n="exp.item1P2">Gyorsan alkalmazkodom új helyzetekhez, megbízható és kitartó személyiség vagyok. Érdekel a programozás, és nyitott vagyok több nyelv elsajátítására, elmélyítésére.</p>
+        <p data-i18n="exp.item1P3">Az ágazati alapvizsgán Pythonban programoztam, majd utána áttértünk más nyelvekre, logikákra és algoritmusokra.</p>
+        <p data-i18n="exp.item1P4">C#-ban konzolos és grafikus alkalmazásokat is fejlesztettem objektumorientált szemlélettel.</p>
       </div>
       <div class="timeline-item">
-        <h3 data-i18n="expItem2Title">Időpontfoglaló webalkalmazás</h3>
-        <p data-i18n="expItem2Text">Szakmai hozzájárulásom főként a frontend megvalósításánál volt, emellett aktívan közreműködtem a backend architektúra megismerésében és értelmezésében.</p>
+        <h3 data-i18n="exp.item2Title">Vizsgaremek</h3>
+        <p data-i18n="exp.item2Text">MVC technológiával készítettem egy időpontfoglaló webalkalmazást, amelyen keresztül backend és frontend tapasztalatot is szereztem.</p>
+      </div>
+      <div class="timeline-item">
+        <h3 data-i18n="exp.item3Title">CAN-bus Analyzer (C#)</h3>
+        <p data-i18n="exp.item3Text">Készítettem egy CAN-busz elemző alkalmazást, amely a GitHub repositorymban konzolos és GUI változatban is elérhető.</p>
       </div>
     </section>
 
     <section id="education" class="reveal">
-      <h2 data-i18n="toolsTitle">Eszközök</h2>
+      <h2 data-i18n="tools.title">Eszközök</h2>
       <ul class="tools-grid">
-        <li>Git</li>
-        <li>Visual Studio</li>
-        <li>VS Code</li>
-        <li>SQL Server</li>
+        <li data-i18n="tools.git">Git</li>
+        <li data-i18n="tools.vs">Visual Studio</li>
+        <li data-i18n="tools.vscode">VS Code</li>
+        <li data-i18n="tools.sql">SQL Server</li>
       </ul>
     </section>
 
     <section id="skills" class="reveal">
-      <div class="section-header skills-header">
-        <h2 data-i18n="skillsTitle">Készségek</h2>
-        <img src="/experience.png" alt="Készségek kép" class="skills-img">
-      </div>
+      <h2 data-i18n="skills.title">Készségek</h2>
       <ul class="skill-cloud">
         <li>HTML</li>
         <li>CSS</li>
@@ -78,148 +81,34 @@
         <li>Python</li>
         <li>SQL</li>
         <li>C#</li>
-        <li data-i18n="langSkill">Angol B2</li>
+        <li data-i18n="skills.lang">Angol B2</li>
       </ul>
     </section>
 
     <section id="contact" class="reveal">
-      <h2 data-i18n="contactTitle">Kapcsolat</h2>
+      <h2 data-i18n="contact.title">Kapcsolat</h2>
       <div class="contact-cards">
         <a class="contact-card" href="mailto:emeseilles120@gmail.com">
-          <strong data-i18n="emailLabel">Email</strong>
+          <strong data-i18n="contact.email">Email</strong>
           <span>emeseilles120@gmail.com</span>
         </a>
         <a class="contact-card" href="tel:+36205586019">
-          <strong data-i18n="phoneLabel">Telefon</strong>
-          <span>+06 20 558 6019</span>
+          <strong data-i18n="contact.phone">Telefon</strong>
+          <span data-i18n="contact.phoneValue">PDF-ben megadva</span>
         </a>
       </div>
       <div class="cta-row">
-        <a class="btn" href="https://github.com/Emese280/Oneletrajz" target="_blank" rel="noopener noreferrer" data-i18n="githubBtn">GitHub projekt</a>
-        <a class="btn btn-outline" href="#about" data-i18n="topBtn">Vissza az elejére</a>
+        <a class="btn" href="https://github.com/Emese280?tab=repositories" target="_blank" rel="noopener noreferrer" data-i18n="btn.github">GitHub projekt</a>
+        <a class="btn btn-outline" href="#about" data-i18n="btn.top">Vissza az elejére</a>
       </div>
     </section>
   </main>
 
   <footer>
-    <p data-i18n="footerText">© 2026 Illés Emese</p>
+    <p data-i18n="footer">© 2026 Illés Emese</p>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.11.0/tsparticles.bundle.min.js"></script>
-  <script>
-    tsParticles.load("tsparticles", {
-      fpsLimit: 60,
-      particles: {
-        number: { value: 30, density: { enable: true, area: 900 } },
-        color: { value: ["#0ea5a6", "#f59e0b", "#1d4ed8"] },
-        shape: { type: "circle" },
-        opacity: { value: 0.35, random: { enable: true, minimumValue: 0.2 } },
-        size: { value: { min: 1, max: 4 } },
-        links: { enable: true, distance: 110, color: "#94a3b8", opacity: 0.25, width: 1 },
-        move: { enable: true, speed: 0.6, direction: "none", outModes: { default: "bounce" } }
-      },
-      interactivity: {
-        detectsOn: "canvas",
-        events: {
-          onHover: { enable: true, mode: "grab" },
-          onClick: { enable: false }
-        },
-        modes: { grab: { distance: 130, links: { opacity: 0.6 } } }
-      },
-      detectRetina: true
-    });
-
-    const i18n = {
-      hu: {
-        pageTitle: "Illés Emese | Developer CV",
-        navAria: "Szekciók",
-        navAbout: "Rólam",
-        navExperience: "Tanulmányok",
-        navTools: "Eszközök",
-        navSkills: "Készségek",
-        navContact: "Kapcsolat",
-        role: "Programtervező informatikus",
-        aboutTitle: "Rólam",
-        aboutP1: "SZC Széchenyi István Műszaki Technikumban végeztem el a szoftverfejlesztő és tesztelő szakot.",
-        aboutP2: "Ezalatt a pár év alatt volt szerencsém elsajátítani a C#/.NET technológiákat és az objektumorientált programozást, algoritmikus gondolkodást, miközben sokat fejlődtem csapatmunkában és projektgondolkodásban.",
-        aboutP3: "Érdeklődéssel fordulok a komplex szoftverrendszerek felé, célom pedig a folyamatos szakmai fejlődés ipari környezetben.",
-        expTitle: "Tanulmányok és projektek",
-        expItem1Title: "Szoftverfejlesztő és tesztelő technikus",
-        expItem1Status: "Folyamatban",
-        expItem1Text: "Technikusi tanulmányaim alatt megtanultam csapatban dolgozni, ami jelentősen fejlesztette a szervező és kommunikációs képességeimet.",
-        expItem2Title: "Időpontfoglaló webalkalmazás",
-        expItem2Text: "Szakmai hozzájárulásom főként a frontend megvalósításánál volt, emellett aktívan közreműködtem a backend architektúra megismerésében és értelmezésében.",
-        toolsTitle: "Eszközök",
-        skillsTitle: "Készségek",
-        langSkill: "Angol B2",
-        contactTitle: "Kapcsolat",
-        emailLabel: "Email",
-        phoneLabel: "Telefon",
-        githubBtn: "GitHub projekt",
-        topBtn: "Vissza az elejére",
-        footerText: "© 2026 Illés Emese"
-      },
-      en: {
-        pageTitle: "Illes Emese | Developer CV",
-        navAria: "Sections",
-        navAbout: "About",
-        navExperience: "Studies",
-        navTools: "Tools",
-        navSkills: "Skills",
-        navContact: "Contact",
-        role: "Software Engineering Student",
-        aboutTitle: "About",
-        aboutP1: "I studied software development and testing at SZC Szechenyi Istvan Technical School.",
-        aboutP2: "During these years, I gained experience in C#/.NET technologies, object-oriented programming, and algorithmic thinking, while improving in teamwork and project-oriented work.",
-        aboutP3: "I am highly interested in designing and building complex software systems, and my goal is continuous professional growth in an industrial environment.",
-        expTitle: "Studies and Projects",
-        expItem1Title: "Software Development and Testing Technician",
-        expItem1Status: "In progress",
-        expItem1Text: "During my technical studies I learned how to work effectively in teams, which significantly improved my organizational and communication skills.",
-        expItem2Title: "Appointment Booking Web App",
-        expItem2Text: "My main contribution was on the frontend implementation, while I also actively participated in understanding and interpreting backend architecture.",
-        toolsTitle: "Tools",
-        skillsTitle: "Skills",
-        langSkill: "English B2",
-        contactTitle: "Contact",
-        emailLabel: "Email",
-        phoneLabel: "Phone",
-        githubBtn: "GitHub project",
-        topBtn: "Back to top",
-        footerText: "© 2026 Illes Emese"
-      }
-    };
-
-    const applyLanguage = (lang) => {
-      const dict = i18n[lang];
-      document.documentElement.lang = lang;
-      document.title = dict.pageTitle;
-      document.getElementById("quick-nav").setAttribute("aria-label", dict.navAria);
-
-      document.querySelectorAll("[data-i18n]").forEach((el) => {
-        const key = el.getAttribute("data-i18n");
-        if (dict[key]) {
-          el.textContent = dict[key];
-        }
-      });
-
-      document.getElementById("lang-hu").classList.toggle("active", lang === "hu");
-      document.getElementById("lang-en").classList.toggle("active", lang === "en");
-    };
-
-    document.getElementById("lang-hu").addEventListener("click", () => applyLanguage("hu"));
-    document.getElementById("lang-en").addEventListener("click", () => applyLanguage("en"));
-
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("visible");
-        }
-      });
-    }, { threshold: 0.15 });
-
-    document.querySelectorAll(".reveal").forEach((section) => observer.observe(section));
-    applyLanguage("hu");
-  </script>
+  <script src="/script.js"></script>
 </body>
 </html>

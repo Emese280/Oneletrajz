@@ -154,26 +154,6 @@ header {
   flex-shrink: 0;
 }
 
-.section-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.skills-header {
-  margin-bottom: 1rem;
-}
-
-.skills-img {
-  width: 56px;
-  height: 56px;
-  border-radius: 8px;
-  object-fit: cover;
-  border: 2px solid rgba(255,255,255,0.7);
-  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.12);
-  flex-shrink: 0;
-}
-
 section {
   background-color: var(--card);
   margin: 2rem auto;
@@ -204,12 +184,6 @@ h2 {
 h3 {
   font-size: 1.1rem;
   margin-bottom: 0.3rem;
-}
-
-.muted {
-  color: var(--muted);
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 0.9rem;
 }
 
 .timeline-item {
@@ -359,16 +333,6 @@ footer {
 
   h2 {
     font-size: 1.4rem;
-  }
-
-  .skills-header {
-    flex-direction: row;
-    gap: 0.75rem;
-  }
-
-  .skills-img {
-    width: 48px;
-    height: 48px;
   }
 
   .cta-row {
