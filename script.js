@@ -36,21 +36,21 @@ const i18n = {
     },
     about: {
       title: "Rólam",
-      p1: "Technikusi tanulmányaim alatt megtanultam csapatban dolgozni, ami nagyon jó hatással volt a szervező és kommunikációs képességeimre.",
-      p2: "Ezalatt az 5 év alatt elsajátítottam a C#/.NET technológiákat, az objektumorientált programozást és az algoritmikus gondolkodást, erős hangsúlyt fektetve a CLEAN CODE elveire.",
-      p3: "Széleskörű érdeklődéssel fordulok a komplex szoftverrendszerek tervezése és megvalósítása felé, célom pedig a folyamatos szakmai fejlődés ipari környezetben."
+      p1: "Technikusi tanulmányaim alatt megtanultam csapatban dolgozni.",
+      p2: "Gyorsan alkalmazkodok új helyzetekhez, megbízható és kitartó személyiség vagyok.",
+      p3: "Érdekel a programozás és nyitott vagyok több nyelv elsajátítására.",
+      p4: "Széleskörű érdeklődéssel fordulok a komplex szoftverrendszerek tervezése és megvalósítása felé."
     },
     exp: {
       title: "Tanulmányok és projektek",
       item1Title: "Szoftverfejlesztő és tesztelő technikus",
-      item1P1: "SZC Széchenyi István Műszaki Technikumban végzem el a szoftverfejlesztő és tesztelő szakot.",
-      item1P2: "Gyorsan alkalmazkodom új helyzetekhez, megbízható és kitartó személyiség vagyok. Érdekel a programozás, és nyitott vagyok több nyelv elsajátítására, elmélyítésére.",
-      item1P3: "Az ágazati alapvizsgán Pythonban programoztam, majd utána áttértünk más nyelvekre, logikákra és algoritmusokra.",
-      item1P4: "C#-ban konzolos és grafikus alkalmazásokat is fejlesztettem objektumorientált szemlélettel.",
+      item1P1: "SZC Széchenyi István Műszaki Technikum szoftverfejlesztő és tesztelő szakán kezdtem tanulmányaimat, ahol már az első évben megtanultam Pythonban programozni.",
+      item1P2: "Elsajátítottam a C#/.NET technológiát, az objektumorientált programozást és az algoritmikus gondolkodást, erős hangsúlyt fektetve a Clean Code elveire.",
+      item1P3: "Diákmunkában sírhelyek adatait digitalizáltuk, majd feltérképeztük a területet községünk számára.",
+      item1P4: "Konzolosan és grafikusan is fejlesztettem alkalmazásokat OOP szemlélettel, valamint backend és frontend alapú, adatbázisos MVC rendszereket is készítettem.",
+      item1P5: "Tovább mélyítettem szakmai tudásomat projektalapú fejlesztésekben.",
       item2Title: "Vizsgaremek",
-      item2Text: "MVC technológiával készítettem egy időpontfoglaló webalkalmazást, amelyen keresztül backend és frontend tapasztalatot is szereztem.",
-      item3Title: "CAN-bus Analyzer (C#)",
-      item3Text: "Készítettem egy CAN-busz elemző alkalmazást, amely a GitHub repositorymban konzolos és GUI változatban is elérhető."
+      item2Text: "MVC technológiával készítettem egy időpontfoglaló webalkalmazást, amelyen keresztül backend és frontend tapasztalatot is szereztem."
     },
     tools: {
       title: "Eszközök",
@@ -90,21 +90,21 @@ const i18n = {
     },
     about: {
       title: "About",
-      p1: "During my technical studies, I learned to work effectively in teams, which had a strong positive impact on my organizational and communication skills.",
-      p2: "Over these 5 years, I gained solid foundations in C#/.NET technologies, object-oriented programming, and algorithmic thinking, with a strong focus on CLEAN CODE principles.",
-      p3: "I am highly interested in designing and implementing complex software systems, and my goal is continuous professional growth in an industrial environment."
+      p1: "During my technical studies, I learned to work in a team.",
+      p2: "I adapt quickly to new situations, and I am a reliable and persistent person.",
+      p3: "I am interested in programming and open to learning multiple languages.",
+      p4: "I am broadly interested in the design and implementation of complex software systems."
     },
     exp: {
       title: "Studies and Projects",
       item1Title: "Software Development and Testing Technician",
-      item1P1: "I am completing the software development and testing track at SZC Szechenyi Istvan Technical School.",
-      item1P2: "I adapt quickly to new situations, and I am a reliable and persistent person. I am passionate about programming and open to deepening my knowledge in multiple languages.",
-      item1P3: "For my basic sector exam I programmed in Python, then moved on to other languages, programming logic, and algorithms.",
-      item1P4: "In C#, I developed both console and graphical applications with an object-oriented approach.",
+      item1P1: "I started my studies in the software development and testing program at SZC Szechenyi Istvan Technical School, where I learned Python programming already in my first year.",
+      item1P2: "I mastered C#/.NET technologies, object-oriented programming, and algorithmic thinking, with a strong focus on Clean Code principles.",
+      item1P3: "During student work, we digitalized grave plot records and mapped the area for our municipality.",
+      item1P4: "I developed both console and graphical applications with an OOP mindset, and also built backend and frontend MVC systems with databases.",
+      item1P5: "I further deepened my professional knowledge through project-based development.",
       item2Title: "Final Exam Project",
-      item2Text: "I built an appointment-booking web application using MVC, which helped me gain practical backend and frontend experience.",
-      item3Title: "CAN-bus Analyzer (C#)",
-      item3Text: "I also created a CAN-bus analyzer application, available in both console and GUI versions in my GitHub repository."
+      item2Text: "I built an appointment-booking web application using MVC, which helped me gain practical backend and frontend experience."
     },
     tools: {
       title: "Tools",
